@@ -17,9 +17,9 @@
     var diary_css = document.getElementsByTagName('link')[4];
     var loader_css = document.getElementsByTagName('link')[5];
 
-    common_css.setAttribute('href', '');
-    semantic_css.setAttribute('href', '');
-    diary_css.setAttribute('href', '');
-    loader_css.setAttribute('href', '');
+    common_css.setAttribute('href', 'https://raw.githubusercontent.com/Cierra-Runis/Nideriji-Beautify/master/beautified_common.css');
+    semantic_css.setAttribute('href', 'https://raw.githubusercontent.com/Cierra-Runis/Nideriji-Beautify/master/beautified_semantic.css');
+    diary_css.setAttribute('href', 'https://raw.githubusercontent.com/Cierra-Runis/Nideriji-Beautify/master/beautified_diary.css');
+    loader_css.setAttribute('href', 'https://raw.githubusercontent.com/Cierra-Runis/Nideriji-Beautify/master/.beautified_loader.css');
 
 })();
