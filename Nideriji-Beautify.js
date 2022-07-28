@@ -17,26 +17,9 @@
     var diary_css = document.getElementsByTagName('link')[4];
     var loader_css = document.getElementsByTagName('link')[5];
 
-    common_css.setAttribute('href', "")
-    /* 背景 */
-    var body = _.querySelector('body');
-    body.style.background = "#222222";
-
-    /* 左边导航栏 */
-    var left_nav = _.querySelector('.left-nav');
-    left_nav.style.background = "#444444";
-
-    /* 写日记按钮 */
-    var btn_new = _.querySelector('.left-nav .bottom-btngrp .new');
-    btn_new.style.color = "#000000";
-
-    /* 中部日记 */
-    var paper = _.querySelector('.paper');
-    paper.style.background = "#444444";
-    paper.style.color = ""
-
-    /* 选取背景色 */
-    var selection = _.querySelector('::selection');
-    selection.background = "#ff8800"
+    common_css.setAttribute('href', '');
+    semantic_css.setAttribute('href', '');
+    diary_css.setAttribute('href', '');
+    loader_css.setAttribute('href', '');
 
 })();
