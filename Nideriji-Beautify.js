@@ -90,6 +90,19 @@ var iframeCloseListener;
         height: 700px
     }
 
+    .content textarea {
+        position: absolute;
+        padding: 2px;
+        left: 35%;
+        top: 0;
+        width: 30%;
+        height: 100%;
+        border: none;
+        outline: none;
+        resize: none;
+        font-size: 17px;
+    }
+
     .content .left-panel ul li:hover.active, .content .left-panel ul li.active.active {
         color: #ff8000;
     }
