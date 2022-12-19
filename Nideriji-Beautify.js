@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         你的日记美化插件
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  美化一下这个网址拉
 // @author       Cierra_Runis
 // @match        https://nideriji.cn/diary/
@@ -87,20 +87,22 @@ var iframeCloseListener;
     }
 
     .content{
-        height: 700px
+        height: 674px
     }
 
     .content textarea {
         position: absolute;
         padding: 2px;
-        left: 35%;
+        left: 0;
         top: 0;
-        width: 30%;
+        width: 100%;
         height: 100%;
         border: none;
         outline: none;
         resize: none;
         font-size: 17px;
+        background: #222222;
+        border-radius: 10px;
     }
 
     .content .left-panel ul li:hover.active, .content .left-panel ul li.active.active {
